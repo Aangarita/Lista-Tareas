@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 30%;
+    padding: 20px 40px 30px 40px;
+    margin: 80px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 12px;
+}
+
+.title {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    gap: 20px;
+}
+
+.input{
+    flex: 1;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #28a745;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-eliminar {
+    background-color: red;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.filtros {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn-filter {
+    background-color: #28a745;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+span {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.tarea-completada {
+    text-decoration: line-through;
+    color: #999;
+}
+
