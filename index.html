@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1 class="title">Lista de Tareas</h1>
+        <form class="form">
+            <input type="text" placeholder= "Escribe una tarea" class="input"/>
+            <button class="btn">Agregar</button>
+        </form>
+
+        <div class="filtros">
+            <button data-filtro="todas" class="btn-filter">Todas</button>
+            <button data-filtro="completadas" class="btn-filter">Completadas</button>
+            <button data-filtro="pendientes" class="btn-filter">Pendientes</button>
+        </div>
+
+
+        <ul id="lista">
+    
+        </ul>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
